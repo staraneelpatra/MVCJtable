@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TharModelStoreContainer" CdmEntityContainer="TharEntities">
+    <EntitySetMapping Name="Birds">
+      <EntityTypeMapping TypeName="TharModel.Bird">
+        <MappingFragment StoreEntitySet="Birds">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BirdName" ColumnName="BirdName" />
+          <ScalarProperty Name="TypeOfBird" ColumnName="TypeOfBird" />
+          <ScalarProperty Name="ScientificName" ColumnName="ScientificName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
